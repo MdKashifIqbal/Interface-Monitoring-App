@@ -5,6 +5,7 @@ import { Button } from './components/ui/button'
 import Dashboard from "@/components/Dashboard";
 import Dashboard_2 from '@/app/dashboard/page';
 import './App.css'
+import LiveInterfaceLogsTable from './components/LiveInterfaceLogsTable';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <div className='light'>
         {/* <Dashboard /> */}
         <Dashboard_2 />
+        {/* <LiveInterfaceLogsTable/> */}
       </div>
     </>
   )

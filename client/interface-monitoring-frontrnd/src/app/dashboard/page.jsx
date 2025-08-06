@@ -8,6 +8,7 @@ import {
   SidebarProvider
 } from "@/components/ui/sidebar";
 import data from "./data.json";
+import LiveInterfaceLogsTable from "@/components/LiveInterfaceLogsTable";
 // ${import.meta.env.VITE_API_BASE_URL}/logs
 export default function Page() {
   return (
@@ -27,7 +28,8 @@ export default function Page() {
               <div className="px-4 lg:px-6">
                 <ChartAreaInteractive />
               </div>
-              <DataTable data={data} />
+              {/* <DataTable data={data} /> */}
+              <LiveInterfaceLogsTable/>
             </div>
           </div>
         </div>
