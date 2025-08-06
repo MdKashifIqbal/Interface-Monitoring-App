@@ -26,7 +26,7 @@ export function SectionCards() {
         <CardHeader>
           <CardDescription>Total Success</CardDescription>
           <CardTitle className="text-2xl font-semibold tabular-nums @[250px]/card:text-3xl">
-            {data.Success}
+            {data.Success || 30}
           </CardTitle>
           <CardAction>
             <Badge variant="outline">
@@ -48,7 +48,7 @@ export function SectionCards() {
         <CardHeader>
           <CardDescription>Total Failure</CardDescription>
           <CardTitle className="text-2xl font-semibold tabular-nums @[250px]/card:text-3xl">
-            {data.Failure}
+            {data.Failure || 17}
           </CardTitle>
           <CardAction>
             <Badge variant="outline">
@@ -70,7 +70,7 @@ export function SectionCards() {
         <CardHeader>
           <CardDescription>Total Warning</CardDescription>
           <CardTitle className="text-2xl font-semibold tabular-nums @[250px]/card:text-3xl">
-            {data.Warning}
+            {data.Warning || 12}
           </CardTitle>
           <CardAction>
             <Badge variant="outline">
