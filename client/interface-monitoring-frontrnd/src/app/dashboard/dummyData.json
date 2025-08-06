@@ -1,0 +1,105 @@
+[
+    {
+  "logs": [
+    {
+      "_id": "6891e520fb59628a100032ab",
+      "interfaceId": {
+        "_id": "6891e2eafb59628a10003294",
+        "name": "Payroll Results Upload",
+        "integrationKey": "payroll-456-up",
+        "sourceSystem": "SAP ECP",
+        "targetSystem": "ADP",
+        "description": "Uploads payroll calculations after each payroll run",
+        "__v": 0
+      },
+      "status": "Warning",
+      "message": "Payroll upload completed with minor discrepancies",
+      "timestamp": "2025-08-05T11:04:00.810Z",
+      "__v": 0
+    },
+    {
+      "_id": "6891e515fb59628a100032a9",
+      "interfaceId": {
+        "_id": "6891e09393cece1b2d9d206d",
+        "name": "Employee Data Sync",
+        "integrationKey": "BDA-124-key",
+        "sourceSystem": "SAP SuccessFactors",
+        "targetSystem": "SAP ECP",
+        "description": "Syncing employee information weekly",
+        "__v": 0
+      },
+      "status": "Failure",
+      "message": "Failed to sync employee due to API timeout",
+      "timestamp": "2025-08-05T11:03:49.539Z",
+      "__v": 0
+    },
+    {
+      "_id": "6891e509fb59628a100032a7",
+      "interfaceId": {
+        "_id": "6891e34bfb59628a1000329c",
+        "name": "Leave Data Integration",
+        "integrationKey": "leave-654-key",
+        "sourceSystem": "Workday",
+        "targetSystem": "SAP ECP",
+        "description": "Transfers leave balances and requests nightly",
+        "__v": 0
+      },
+      "status": "Success",
+      "message": "Leave data transferred to SAP ECP",
+      "timestamp": "2025-08-05T11:03:37.501Z",
+      "__v": 0
+    },
+    {
+      "_id": "6891e4f1fb59628a100032a5",
+      "interfaceId": {
+        "_id": "6891e310fb59628a10003296",
+        "name": "Time Tracking Export",
+        "integrationKey": "time-789-exp",
+        "sourceSystem": "SAP ECP",
+        "targetSystem": "Workday",
+        "description": "Exports time logs to Workday every 4 hours",
+        "__v": 0
+      },
+      "status": "Warning",
+      "message": "Some time entries were skipped due to missing employee IDs",
+      "timestamp": "2025-08-05T11:03:13.498Z",
+      "__v": 0
+    },
+    {
+      "_id": "6891e4e3fb59628a100032a3",
+      "interfaceId": {
+        "_id": "6891e2eafb59628a10003294",
+        "name": "Payroll Results Upload",
+        "integrationKey": "payroll-456-up",
+        "sourceSystem": "SAP ECP",
+        "targetSystem": "ADP",
+        "description": "Uploads payroll calculations after each payroll run",
+        "__v": 0
+      },
+      "status": "Failure",
+      "message": "Payroll upload failed due to invalid file format",
+      "timestamp": "2025-08-05T11:02:59.358Z",
+      "__v": 0
+    },
+    {
+      "_id": "6891e4d6fb59628a100032a1",
+      "interfaceId": {
+        "_id": "6891e09393cece1b2d9d206d",
+        "name": "Employee Data Sync",
+        "integrationKey": "BDA-124-key",
+        "sourceSystem": "SAP SuccessFactors",
+        "targetSystem": "SAP ECP",
+        "description": "Syncing employee information weekly",
+        "__v": 0
+      },
+      "status": "Success",
+      "message": "Employee sync completed successfully",
+      "timestamp": "2025-08-05T11:02:46.525Z",
+      "__v": 0
+    }
+  ],
+  "totalCount": 6,
+  "currentPage": 1,
+  "totalPages": 1
+}
+]

@@ -17,7 +17,7 @@ const getAllLogs = async (req, res) => {
     }
 
     const logs = await Log.find(filter)
-      .populate("interfaceId", "name integrationKey") // fetch interface name & key for UI
+      .populate("interfaceId") // fetch interface name & key for UI
       .sort({ timestamp: -1 })
       .skip((page - 1) * limit)
       .limit(parseInt(limit));
