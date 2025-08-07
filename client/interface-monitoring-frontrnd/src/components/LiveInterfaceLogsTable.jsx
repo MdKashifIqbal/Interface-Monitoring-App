@@ -107,8 +107,8 @@ export default function LiveInterfaceLogsTable() {
   };
 
   return (
-    <div className="space-y-6 p-6 bg-gradient-to-br from-slate-50 to-gray-100 min-h-screen">
-      <div className="max-w-7xl mx-auto">
+    <div className=" space-y-6 p-6 bg-gradient-to-br from-  slate-50 to-gray-100 min-h-screen">
+      <div className="max-w-7xl mx-auto">         
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900 tracking-tight">Interface Logs</h1>
